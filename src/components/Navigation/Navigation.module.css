@@ -1,0 +1,13 @@
+@import '~bulma/css/bulma.min.css';
+
+.link {
+  margin: 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.link.active {
+  color: #e84a5f;
+}

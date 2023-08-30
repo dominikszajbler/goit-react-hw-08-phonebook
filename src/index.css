@@ -1,7 +1,16 @@
-@import-normalize; /* bring in normalize.css styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  background-image: url('https://img.freepik.com/fotos-gratis/composicao-do-conceito-de-segunda-feira-azul-de-vista-superior-com-telefone_23-2149139106.jpg?w=1380&t=st=1690025302~exp=1690025902~hmac=e7ca8a82c884f4e9353acba43696a1e0a261ef73ee15de93c0c8597b83a8511c');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -9,7 +18,4 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

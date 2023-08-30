@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .inputField {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
